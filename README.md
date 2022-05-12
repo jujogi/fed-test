@@ -8,8 +8,6 @@ Our client's app Rule of Thumb™️ tracks the sentiment of their users on tren
     - [Desktop Prototype](https://www.figma.com/proto/NlQ6PjfanVO2YyuDUaohjx/Rule-of-Thumb---FED-Challenge?node-id=84%3A2401&scaling=min-zoom)
     - [Mobile Prototype](https://www.figma.com/proto/NlQ6PjfanVO2YyuDUaohjx/Rule-of-Thumb---FED-Challenge?node-id=6%3A43&scaling=min-zoom)
     - [Figma Resources](https://www.figma.com/file/NlQ6PjfanVO2YyuDUaohjx/Rule-of-Thumb---FED-Challenge)
-- Data must be obtained from `assets/data.json`. The file contains all the information required to add each famous person into the DOM. 
-- In desktop versions, users should be able to switch views between list view and grid view, using the dropdown menu, which should be located at the top right section of the component.
 - In the mobile version, cards should only be displayed as a list of cards, with horizontal scrolling and overflow.
 - Each card should contain a gauge bar at the bottom, which will display the distribution of positive and negative votes as a percentage.`(See assets/data.json for reference).`
 - Each card should contain three buttons: a "thumbs down" (yellow), a "thumbs up" (teal) and a "Vote now" button which should be disabled by default.
@@ -21,7 +19,7 @@ Our client's app Rule of Thumb™️ tracks the sentiment of their users on tren
     - If the "Vote Again" button is pressed, all buttons should return to the initial state, and all modified copy texts should be reverted to their original state. The gauge bar, however, should persist the votes already posted.
 
 ## Tips on Delivery 🧐 
-- **Do not use any framework/library**. We want to see how expert you are working with Vanilla HTML, CSS and Javascript.
+- **Do not use any framework/library**. Using Vanilla HTML, CSS and JS is preferred, but if you do not know how to set up a project like that you can use a Front End framework such as React, Vue, Angular or whatever you feel comfortable working with.
 - **We don't care about IE and neither should you**. We'll test in Chromium, like all cool people do.
 - **We value your time.** We don't expect you to take more than **three days** on it, and as long as you send us working code that meets the criteria described above, we're happy. Don't overthink it though, find an easy way to achieve a good result and stick to it.
 - **No copypasta, please.** You can find anything on GitHub and StackOverflow these days, can't you? Well, _so can we_. We won't blame you if you forgot how to use the LocalStorage API. Just don't copypaste big chunks of code.
@@ -29,6 +27,8 @@ Our client's app Rule of Thumb™️ tracks the sentiment of their users on tren
 ## Going above and beyond 🚀 
 If you feel that covering the basic acceptance criteria isn't enough to showcase the best of your abilities feel free to add a little extra. This is by no means mandatory but if there are any valuable additional skills you'd like to show off go right ahead. These are just a few ideas of things you could add:
 
+- In desktop versions, users should be able to switch views between list view and grid view, using the dropdown menu, which should be located at the top right section of the component.
+- Data must be obtained from `assets/data.json`. The file contains all the information required to add each famous person into the DOM. 
 - All posted votes should be persisted by any means, and should be exactly the same count, even if the page is refreshed. Use any persistence mechanisms you prefer: LocalStorage, Cookies, IndexedDB, URL params, a Back End service (Firebase, DynamoDB, Redis, etc).
 - Using a CSS preprocessor like SASS or SCSS.
 - Write some tests. Unit, Integration, E2E, anything that ensures that your code is unbreakable.
